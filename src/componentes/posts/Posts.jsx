@@ -20,13 +20,13 @@ function Predios() {
     const [alerta, setAlerta] = useState({ status: "", message: "" });
 
     const [objeto, setObjeto] = useState({
-        id: "", nome: "", descricao: "", sigla: "",
+        id: "", titulo: "", texto: "",
         uid: "", usuario: "", email: ""
     });
 
     const novoObjeto = () => {
         setObjeto({
-            id: 0, nome: "", descricao: "", sigla: "",
+            id: 0, titulo: "", texto: "",
             uid: "", usuario: "", email: ""
         });
     }
