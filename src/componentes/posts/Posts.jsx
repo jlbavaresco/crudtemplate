@@ -5,7 +5,7 @@ import Formulario from './Formulario';
 
 
 
-function Predios() {
+function Posts() {
 
 
     const [listaObjetos, setListaObjetos] = useState([{
@@ -90,4 +90,4 @@ function Predios() {
     );
 }
 
-export default Predios;
+export default Posts;
